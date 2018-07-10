@@ -206,9 +206,9 @@ header {
             }
             
             .pc-none {
-                flex: 1 0 45%;
+                flex: 1 0 46%;
                 margin: 2px;
-                background-color: #ffffff;
+                background-color: $basecolor;
             }
             
             
@@ -250,9 +250,9 @@ header {
             }
             
             .pc-none {
-                flex: 1 0 45%;
+                flex: 1 0 46%;
                 margin: 2px;
-                background-color: #ffffff;
+                background-color: $basecolor;
             }
             
         }
@@ -312,6 +312,8 @@ header {
                 background-color: #ffffff;
                 height: auto;
                 color: black;
+                
+                
                 
                 
                 .otodoke {
@@ -597,7 +599,7 @@ footer {
         text-align: center;
         
         img {
-            width: 40%;
+            width: 30%;
     
         }
          
@@ -872,3 +874,34 @@ footer {
 }
 
 
+.l-height {
+    margin-bottom: 5px;
+}
+
+
+* {
+    font-size: 13px;
+}
+
+.hedding {
+    font-size: 16px;
+}
+
+
+    
+.owl-dots {
+    margin-top: 0 !important;
+    text-align: left !important;}
+
+
+.owl-dot span {
+    display: block;
+    border-radius: 0;
+    width: 25px !important;
+    height: 2px !important;
+    margin: 0 8px 0 0;
+    background-color: #aaaaaa; }
+    
+.owl-dots .active span {
+  background-color: #9d1a2d !important; }
+  

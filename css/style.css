@@ -29,7 +29,8 @@ header .sp-header-menu {
     display: inline-block;
     text-align: center; }
     header .sp-header-menu #menu {
-      cursor: pointer; }
+      cursor: pointer;
+      display: inline; }
     header .sp-header-menu .menu_sp_img {
       width: 20px;
       height: 20px; }
@@ -177,27 +178,41 @@ header .sp-header-menu {
   .main-area .search-box #form02 {
     background-color: #e7e6e6;
     width: 100%;
-    height: 40px; }
+    height: 40px;
+    background-image: url("../image/top/search_icon.png");
+    background-position: 90% 50%;
+    background-repeat: no-repeat; }
     .main-area .search-box #form02 input {
-      vertical-align: top;
+      vertical-align: middle;
       margin: 0px;
       height: 100%;
       box-sizing: border-box;
       background-color: transparent; }
     .main-area .search-box #form02 #input02 {
       border: none;
-      width: 60%; }
-    .main-area .search-box #form02 #submit02 {
-      width: 20px;
-      border: none;
-      background-image: url("../image/top/search_icon.png");
-      background-position: 80% 50%;
-      background-repeat: no-repeat; }
+      width: 100%; }
   @media (max-width: 550px) {
-    .main-area .search-box .search-box {
-      bacground-color: red; }
-    .main-area .search-box .serch-img {
-      display: none; } }
+    .main-area .search-box .search-img {
+      display: none; }
+    .main-area .search-box #form02 {
+      background-color: #e7e6e6;
+      width: 100%;
+      height: 40px; }
+      .main-area .search-box #form02 input {
+        vertical-align: middle;
+        margin: 0px;
+        height: 100%;
+        box-sizing: border-box;
+        background-color: transparent; }
+      .main-area .search-box #form02 #input02 {
+        border: none;
+        width: 72%; }
+      .main-area .search-box #form02 #submit02 {
+        width: 20px;
+        border: none;
+        background-image: url("../image/top/search_icon.png");
+        background-position: 80% 50%;
+        background-repeat: no-repeat; } }
 .main-area .page-link {
   height: 50px;
   background-color: #887f69;

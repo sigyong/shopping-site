@@ -73,6 +73,7 @@ header {
             
             #menu {
               cursor: pointer;
+              display: inline;
                 }
                 
             .menu_sp_img {
@@ -355,11 +356,39 @@ header {
                 background-color: #e7e6e6;
                 width: 100%;
                 height: 40px;
-        
-   
+                background-image: url("../image/top/search_icon.png");
+                background-position: 90% 50%;
+                background-repeat: no-repeat;
 
+                input {
+                    vertical-align: middle;
+                    margin: 0px;
+                    height: 100%;
+                    box-sizing: border-box;
+                    background-color: transparent;
+                }
+
+                #input02{
+                    border: none;
+                    width: 100%;
+                }
+          
+            }
+            
+     
+      @media (max-width: 550px){
+            
+            .search-img {
+                display: none;
+            }
+            
+            #form02{
+                background-color: #e7e6e6;
+                width: 100%;
+                height: 40px;
+        
                 input{
-                    vertical-align: top;
+                    vertical-align: middle;
                     margin: 0px;
                     height: 100%;
                     box-sizing: border-box;
@@ -368,8 +397,7 @@ header {
 
             #input02{
                 border: none;
-                width: 60%;
-            
+                width: 72%;
             }
     
             #submit02{
@@ -378,28 +406,13 @@ header {
                 background-image: url("../image/top/search_icon.png");
                 background-position: 80% 50%;
                 background-repeat: no-repeat;
-                
-            }
-
-        }
-      
-      @media (max-width: 550px){
-            
-            .search-box {
-                bacground-color: red;
-                
             }
             
-            .serch-img {
-                display: none;
-            }
+        
         }
- 
-        
-        
     }
 
-
+}
 
 
     .page-link {
